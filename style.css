@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background: transparent;
+  z-index: 1;
+  transition: all 0.5s ease-in;
+}
+.navbar-brand {
+  color: black !important;
+  font-family: "Anton", sans-serif;
+}
+.navscroll {
+  background-color: rgba(255, 255, 255, 0.904) !important;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.4);
+}
+.fixed-top {
+  transition: all 0.5s ease-in;
+}
+.navscroll .nav-item a {
+  color: black;
+}
+.nav-item a {
+  color: white;
+}
+.navbar-brand img {
+  height: 70px;
+}
+.carousel {
+  margin-top: -96px;
+}
+.carousel-item img {
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.overlay-vid {
+  position: absolute;
+  min-height: 120vh;
+  min-width: 100vw;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 50px 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 12px;
+  height: 12px;
+  margin: 0 20px;
+  border-radius: 100%;
+  border: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+ol.carousel-indicators li.active {
+  background: yellow;
+}
+.unit h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.unit p,
+.unit a {
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+}
+
+#gallery {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/gallery.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  color: white;
+}
+#location {
+  margin: 50px;
+  padding: 30px;
+}
+#location h1 {
+  text-align: center;
+  font-weight: bolder;
+  margin: 0 0 50px;
+}
+.page-footer {
+  background: linear-gradient(
+      to right,
+      rgba(14, 90, 189, 0.8),
+      rgba(14, 90, 189, 0.8)
+    ),
+    url("images/footer.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: whitesmoke;
+  padding: 40px 0;
+}
+.bg-type video {
+  width: 100vw;
+  margin-top: -96px;
+}
+.nav-tabs .nav-link.active {
+  background-color: rgb(248, 241, 231);
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+.nav-tabs .nav-item a {
+  color: grey;
+}
+.nav-tabs .nav-item a.active {
+  color: brown;
+}
+.tab-content {
+  background-color: rgb(248, 241, 231);
+}
