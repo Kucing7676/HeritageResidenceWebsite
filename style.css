@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -34,11 +37,11 @@ body {
 .carousel {
   margin-top: -96px;
 }
-.carousel-item img {
-  height: 100%;
+.carousel-normal {
+  margin-top: 0;
 }
 .carousel-item.carayam img {
-  height: 500px;
+  height: 100%;
 }
 .overlay {
   position: absolute;
@@ -50,7 +53,7 @@ body {
 }
 .overlay-vid {
   position: absolute;
-  min-height: 120vh;
+  min-height: 117vh;
   min-width: 100vw;
   left: 0;
   top: 0;
@@ -141,4 +144,11 @@ ol.carousel-indicators li.active {
 }
 .tab-content {
   background-color: rgb(248, 241, 231);
+}
+.box {
+  border: 5px solid gray;
+  height: 550px;
+  width: 400px;
+  margin-bottom: -500px;
+  margin-left: -100px;
 }
