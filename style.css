@@ -34,8 +34,12 @@ body {
 .nav-item a.navsec {
   color: black;
 }
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 50, 50, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 .carousel {
   margin-top: -96px;
+  z-index: 0;
 }
 .carousel-normal {
   margin-top: 0;
@@ -151,4 +155,12 @@ ol.carousel-indicators li.active {
   width: 400px;
   margin-bottom: -500px;
   margin-left: -100px;
+}
+.navbar-togler-icon {
+  z-index: 2;
+}
+@media (max-width: 990px) {
+  .carousel {
+    margin-top: 0;
+  }
 }

@@ -14,3 +14,12 @@ $(document).ready(function() {
     }
     navbarFixed();   
 })
+$(document).load($(window).bind("resize", checkPosition));
+
+function checkPosition(){
+    if (window.matchMedia('(max-width: 990px)').matches) {
+        $('.navbar').addClass('navbar-light');
+    } else {
+        $('.navbar').removeClass('navbar-light');
+    }
+}
